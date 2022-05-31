@@ -99,7 +99,7 @@
   cursor: pointer;
 }
 
-.categories .categories-cont .cards-cont .card img {
+.categories .categories-cont .cards-cont img {
   width: 100%;
   border-radius: 20px;
   height: 100%;
@@ -107,6 +107,11 @@
   background-size: cover;
   -o-object-fit: fill;
      object-fit: fill;
+}
+
+.categories .categories-cont .cards-cont img:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75)));
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
 }
 
 @media screen and (max-width: 628px) {
