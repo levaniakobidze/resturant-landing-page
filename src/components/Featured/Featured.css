@@ -1,0 +1,88 @@
+.featured {
+  width: 100%;
+  position: relative;
+  background: #2e2e2e;
+  height: 338px;
+  overflow-x: hidden;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.featured .red-ball1 {
+  position: absolute;
+  width: 331px;
+  height: 331px;
+  left: -194px;
+  top: -198px;
+  border-radius: 50%;
+  background: #da0037;
+  z-index: 1;
+}
+
+.featured .red-ball2 {
+  position: absolute;
+  width: 331px;
+  height: 331px !important;
+  right: -15%;
+  top: 54%;
+  border-radius: 50%;
+  background: #da0037;
+  z-index: 1;
+}
+
+.featured .featured-cont {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.featured .featured-cont .featured-left {
+  width: 177px;
+  height: 177px;
+  margin-bottom: 5px;
+}
+
+.featured .featured-cont .featured-left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.featured .featured-cont .featured-right {
+  margin: 0 45px;
+}
+
+.featured .featured-cont .featured-right .featured-title h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  /* identical to box height, or 36px */
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.featured .featured-cont .featured-right .featured-text {
+  width: 448px;
+}
+
+.featured .featured-cont .featured-right .featured-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+/*# sourceMappingURL=Featured.css.map */

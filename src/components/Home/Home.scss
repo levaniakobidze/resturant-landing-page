@@ -1,0 +1,90 @@
+.home {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("https://images.pexels.com/photos/1555814/pexels-photo-1555814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+  object-fit: cover;
+  z-index: 20;
+  position: relative;
+}
+.home-cont {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between !important;
+  padding-top: 60px !important;
+  z-index: 3000;
+  .home-left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 600px;
+
+    .home-title {
+      margin-bottom: 20px;
+      h1 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 100%;
+        /* or 40px */
+
+        letter-spacing: 0.01em;
+
+        color: #ffffff;
+      }
+    }
+    .home-text {
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+
+        color: #ffffff;
+      }
+    }
+  }
+
+  .home-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+
+    .home-image-sm {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+    .home-image-lg {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      margin-left: 80px;
+      img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
+}
