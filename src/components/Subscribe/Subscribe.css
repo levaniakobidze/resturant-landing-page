@@ -109,4 +109,125 @@
   border: 0;
   outline: 0;
 }
+
+@media screen and (max-width: 912px) {
+  input {
+    width: 500px !important;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  input {
+    width: 400px !important;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .subscribe-text {
+    margin: 40px 0 !important;
+  }
+  .subscribe-title {
+    width: 536px !important;
+  }
+  .subscribe-title h1 {
+    font-size: 35px !important;
+  }
+  button {
+    margin-top: 20px;
+  }
+  form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .subscribe-title {
+    width: 426px !important;
+  }
+  .subscribe-title h1 {
+    font-size: 30px !important;
+  }
+  .subscribe-text {
+    margin: 20px 0 !important;
+    width: 407px !important;
+  }
+  .subscribe-text p {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 482px) {
+  .subscribe-title {
+    width: 200px !important;
+  }
+  input {
+    width: 300px !important;
+    height: 46px !important;
+    font-size: 15px !important;
+  }
+  button {
+    width: 160px !important;
+    height: 40px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .subscribe-title {
+    width: 406px !important;
+  }
+  .subscribe-title h1 {
+    font-size: 25px !important;
+  }
+  .subscribe-text {
+    margin: 30px 0 !important;
+    width: 407px !important;
+  }
+  .subscribe-text p {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .subscribe-title {
+    width: 370px !important;
+  }
+  .subscribe-title h1 {
+    font-size: 25px !important;
+  }
+  .subscribe-text {
+    margin: 30px 0 !important;
+    width: 350px !important;
+  }
+  .subscribe-text p {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 373px) {
+  .subscribe-title {
+    width: 320px !important;
+  }
+  .subscribe-title h1 {
+    font-size: 22px !important;
+  }
+  .subscribe-text {
+    margin: 30px 0 !important;
+    width: 320px !important;
+  }
+  .subscribe-text p {
+    font-size: 13px !important;
+  }
+}
 /*# sourceMappingURL=Subscribe.css.map */
