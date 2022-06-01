@@ -22,19 +22,19 @@ function Home() {
         <div className='home-right'>
           <div className='home-image-sm'>
             <img
-              src='https://images.pexels.com/photos/4113664/pexels-photo-4113664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+              src='https://images.pexels.com/photos/4753650/pexels-photo-4753650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
               alt='cocacola'
             />
           </div>
           <div className='home-image-lg'>
             <img
-              src='https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600'
+              src='https://images.pexels.com/photos/2714722/pexels-photo-2714722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
               alt='burger'
             />
           </div>
           <div className='home-image-sm'>
             <img
-              src='https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+              src='https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
               alt='fries'
             />
           </div>

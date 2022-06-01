@@ -62,23 +62,23 @@
       width: 100%;
       margin-top: 50px;
       .card {
-        width: 280px;
+        width: 290px;
         height: 260px;
         margin: 20px 0;
         transition: all 0.5s;
-        opacity: 0;
         cursor: pointer;
+        display: inline-block;
+        z-index: 20;
       }
+
       img {
+        position: relative;
         width: 100%;
         border-radius: 20px;
         height: 100%;
         background-position: center;
         background-size: cover;
         object-fit: fill;
-        &:hover {
-          background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
-        }
       }
     }
   }

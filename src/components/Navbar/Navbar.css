@@ -85,6 +85,7 @@ nav .nav-cont .menu-icon-cont .nav-menu {
   position: fixed;
   top: 7.6%;
   right: 0%;
+  height: 300px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,6 +111,7 @@ nav .nav-cont .menu-icon-cont .nav-menu {
 
 nav .nav-cont .menu-icon-cont .nav-menu li {
   list-style: none;
+  margin: 10px 0;
 }
 
 nav .nav-cont .menu-icon-cont .nav-menu li a {
