@@ -105,13 +105,36 @@
     height: 180px !important;
   }
 }
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 514px) {
   .categories-menu {
     ul {
       li {
         margin-left: 0 !important;
       }
     }
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .categories-menu {
+    ul {
+      li {
+        margin-left: 0 !important;
+        margin-right: 3 !important;
+      }
+    }
+    .categories-title {
+      font-size: 22px !important;
+    }
+  }
+}
+@media screen and (max-width: 455px) {
+  .categories-menu {
+    display: flex;
+    justify-content: right !important;
+  }
+  .categories-title {
+    display: none !important;
   }
 }
 

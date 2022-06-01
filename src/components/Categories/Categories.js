@@ -22,7 +22,7 @@ function Categories() {
     <section className='categories' id='categories'>
       <Container className='categories-cont'>
         <div className='categories-menu'>
-          <h1>Categories</h1>
+          <h1 className='categories-title'>Categories</h1>
           <ul>
             <li className={all && "active"} onClick={() => setCategorie("all")}>
               All

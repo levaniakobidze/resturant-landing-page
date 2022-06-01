@@ -120,6 +120,15 @@
 
 @media screen and (max-width: 419px) {
   .home-left {
+    margin-bottom: 300px !important;
+  }
+  .home-right {
+    margin-top: -480px !important;
+  }
+  .home {
+    height: 80vh !important;
+  }
+  .home-left {
     margin-top: 60px !important;
   }
   .home-title {
