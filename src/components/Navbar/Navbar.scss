@@ -79,3 +79,9 @@ nav {
     }
   }
 }
+
+@media screen and (max-width: 1337px) {
+  .nav-menu {
+    top: 6.6% !important;
+  }
+}

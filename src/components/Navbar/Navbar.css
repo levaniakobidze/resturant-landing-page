@@ -118,4 +118,10 @@ nav .nav-cont .menu-icon-cont .nav-menu li a {
   text-decoration: none;
   color: #fff;
 }
+
+@media screen and (max-width: 1337px) {
+  .nav-menu {
+    top: 6.6% !important;
+  }
+}
 /*# sourceMappingURL=Navbar.css.map */
