@@ -15,7 +15,7 @@ function Categories() {
   const desserts = categorie === "desserts";
 
   return (
-    <section className='categories'>
+    <section className='categories' id='categories'>
       <Container className='categories-cont'>
         <div className='categories-menu'>
           <h1>Categories</h1>

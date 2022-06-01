@@ -4,7 +4,7 @@ import Container from "../Container/Container";
 
 function Home() {
   return (
-    <section className='home'>
+    <section className='home' id='home'>
       <Container className='home-cont'>
         <div className='home-left'>
           <div className='home-title'>

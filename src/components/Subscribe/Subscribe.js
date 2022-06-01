@@ -4,7 +4,7 @@ import "./Subscribe.css";
 
 function Subscribe() {
   return (
-    <section className='subscribe'>
+    <section className='subscribe' id='subscribe'>
       <Container className='subscribe-cont'>
         <div className='subscribe-title'>
           <h1>Subscribe to our Newsletter for More Information</h1>

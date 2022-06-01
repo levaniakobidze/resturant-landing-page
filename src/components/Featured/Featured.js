@@ -4,7 +4,7 @@ import Container from "../Container/Container";
 
 function Featured() {
   return (
-    <section className='featured'>
+    <section className='featured' id='featured'>
       <div className='red-ball1'></div>
       <div className='red-ball2'></div>
       <Container className='featured-cont'>
